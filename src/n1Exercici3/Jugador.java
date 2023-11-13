@@ -136,6 +136,7 @@ public class Jugador {
 		}
 
 		escribirClasificacion = new PrintWriter(clasificacionWriter);
+		//Esta es la linea que escribe en el archivo
 		escribirClasificacion.println(jugador.name + " " + jugador.puntuacion + "pt");
 
 		try {
