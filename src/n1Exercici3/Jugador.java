@@ -73,7 +73,7 @@ public class Jugador {
 			// instanciar, asignar en BufferedReader más eficiente y mejor gestion contenido
 			almacenCountries = new BufferedReader(lectorCountries);
 
-			// string donde poner la lectura y asignamos lectural primera linea
+			// string donde poner la lectura y asignamos lectura primera linea
 			String todoCountriesString = almacenCountries.readLine();
 
 			while (todoCountriesString != null) {
